@@ -1,18 +1,12 @@
 ---
-name: gongwen-skills-gb-t9704-2012
-description: "公文skills（GB/T 9704-2012）。党政机关公文全流程技能。用户提供（1）公文类型+（2）事由内容，AI 直接生成排版完成的 .docx（python-docx可用时）或结构化 Markdown（降级模式）。支持模板填充、增量修改、迭代对话完善公文。涵盖：15种文种写作框架+版头版记页码生成+GB/T 9704全要素排版+公文用语规范+标点数字规范+100+质量检查+错误案例对比。WHEN: 写公文, 公文排版, 公文格式, 红头文件, 通知, 报告, 请示, 批复, 函, 纪要, 命令, 决定, 决议, 公报, 公告, 通告, 通报, 意见, 议案, 修改公文, 完善公文, 检查公文, 党政机关公文, GB/T 9704, 政府文件, 党委文件, 排版 docx, 公文模板."
+name: gongwen
+description: "党政机关公文写作排版技能。用户提供公文类型+事由内容，AI 直接生成 GB/T 9704-2012 排版完成的 .docx 文件。覆盖15种文种(通知/报告/请示/批复/函/纪要/命令/决定/决议/公报/公告/通告/通报/意见/议案)，支持版头版记页码、格式自检修复、Markdown降级输出。启动词: 写公文, 公文, 通知, 报告, 请示, 批复, 函, 纪要, 红头文件, 政府文件, 党委文件, 公文排版, 公文格式."
 license: MIT
+official: false
 metadata:
+  author: opencode
   version: "5.2.0"
-  input: "公文类型 + 事由内容"
-  outputs: [".docx (Word/WPS, 需 python-docx)", ".md (纯文本降级, 总是可用)", "文本预览 (每次生成后同步输出)"]
-  modes: ["从零草拟", "分步确认", "模板填充", "增量修改", "迭代完善"]
-  auto: "格式自检+自动修复"
   base_standard: "GB/T 9704-2012"
-  acknowledgments:
-    - "xkonglong/gw — Word/WPS插件功能参考"
-    - "KaguraNanaga/official-document-writing-skill — 写作技巧与范例参考"
-    - "cj0103/gbt-9704-2012-skills — 格式诊断/标点修复/排版工具参考"
 ---
 
 # 党政机关公文技能

@@ -18,11 +18,22 @@
 
 如果运行环境没有安装 `python-docx`，AI 会自动降级为结构化的 Markdown 文本输出。
 
+### 推荐平台：LobsterAI
+
+[LobsterAI](https://github.com/netease-youdao/LobsterAI)（网易有道出品，5.2k⭐）是一个桌面端 AI 助手，Windows 版内置 Python 运行环境，支持通过 QQ/微信/钉钉远程控制。
+
+**安装本技能到 LobsterAI**：
+1. 将本仓库整个目录复制到 LobsterAI 的 `SKILLs/` 文件夹
+2. 编辑 `SKILLs/skills.config.json`，在 `defaults` 中添加：`"gongwen": { "order": 11, "enabled": true }`
+3. 重启 LobsterAI，即可对话使用
+
+**其他兼容平台**：OpenCode、Claude Code、OpenClaw 均原生支持此技能格式。
+
 ---
 
 ## 怎么用
 
-加载技能后，用自然语言告诉 AI 你的需求：
+加载技能后，用自然语言告诉 AI：
 
 ### 从零草拟
 ```
