@@ -31,9 +31,19 @@
 
 ---
 
-## 怎么用
+## 怎么安装
 
-加载技能后，用自然语言告诉 AI：
+### 一键安装（Windows + LobsterAI）
+
+下载 `install.bat` → 双击 → 自动完成。详见 [INSTALL.md](INSTALL.md)。
+
+### 手动安装（其他平台）
+
+解压到技能目录 → 参考 [INSTALL.md](INSTALL.md)。
+
+### 怎么用
+
+安装后在对话框说：
 
 ### 从零草拟
 ```
