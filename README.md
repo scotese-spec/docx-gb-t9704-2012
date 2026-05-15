@@ -1,7 +1,7 @@
 # docx-gb-t9704-2012
 
 [![Version](https://img.shields.io/badge/version-7.0-blue)](SKILL.md)
-[![Standard](https://img.shields.io/badge/standard-GB%2FT%209704--2012-green)](references/)
+[![Standard](https://img.shields.io/badge/standard-GB%2FT%209704--2012-green)](SKILL.md)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 > **一个 AI 技能文件。加载后，AI 变成一名有二十年经验的政府文书人员——你只需描述你的情况，它帮你选文种、问信息、写正文、排版，输出完整的 .docx。**
@@ -12,7 +12,7 @@
 
 ### 第一步：加载技能
 
-将 `SKILL.md`（以及可选的 `references/` 目录）粘贴到你的 AI 平台上下文或系统提示中。
+将 `SKILL.md` 的全部内容粘贴到你的 AI 平台系统提示或对话开头。
 
 **支持平台**：OpenCode · Claude Code · Cursor · GitHub Copilot Agent · 任何支持自定义系统提示的 AI 工具
 
@@ -43,9 +43,7 @@ AI 会：
 
 ## 这是什么
 
-一个 Markdown 技能文件（`SKILL.md`）加上配套的参考资料、工具脚本和模板。
-
-加载后 AI 掌握：
+一个单文件 AI 技能（`SKILL.md`）。加载后 AI 掌握：
 
 - **15 种公文**的写作框架、铁律和常用句式
 - **GB/T 9704-2012** 完整排版规范（版头版记页码字体字号页边距）
@@ -60,35 +58,9 @@ AI 会：
 
 ```
 docx-gb-t9704-2012/
-├── SKILL.md                      ← AI 技能核心文件（从这里开始）
-│
-├── references/                   深度参考资料
-│   ├── document-types.md         15种文种写作指南（含范例全文）
-│   ├── writing-language.md       公文用语规范（四原则+句式+避讳词）
-│   ├── writing-techniques.md     写作技巧（结构、逻辑、论证）
-│   ├── punctuation-numbers.md    标点数字规范
-│   ├── political-terms.md        规范词汇速查（400+条目）
-│   ├── common-mistakes.md        常见错误纠正（含反例）
-│   └── font-install.md           字体安装指引（含WPS操作步骤）
-│
-├── checklists/
-│   └── quality-checklist.md      100+ 格式和内容质量检查项
-│
-├── scripts/
-│   ├── analyzer.py               格式诊断（检测标点/序号/字体/缩进）
-│   └── punctuation.py            标点批量修复
-│
-├── templates/                    16个 Markdown 模板文件
-│   ├── 请示.md / 报告.md / 通知.md / 批复.md / 函.md
-│   ├── 会议纪要.md / 决定.md / 决议.md / 命令.md
-│   ├── 公告.md / 通告.md / 通报.md / 意见.md / 议案.md
-│   ├── 公报.md                   （15种文种）
-│   └── 桌签.md                   （会议桌签格式）
-│
-├── presets/
-│   └── custom.json               格式预设（字体/字号/页边距/行距）
-│
-└── LICENSE                       MIT
+├── SKILL.md    ← AI 技能核心文件（全部内容内置于此）
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -181,4 +153,4 @@ docx-gb-t9704-2012/
 
 ---
 
-MIT License · [SKILL.md](SKILL.md) · [templates/](templates/) · [references/](references/)
+MIT License · [SKILL.md](SKILL.md)
