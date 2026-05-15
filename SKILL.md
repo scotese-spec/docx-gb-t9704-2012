@@ -1040,14 +1040,13 @@ FALLBACK_MSG = (
 | 需要什么 | 路径 |
 |---------|------|
 | 从头写，看框架 | 本文 §三 各文种写作框架 |
-| 提高写作质量 | `references/writing-techniques.md` |
-| 用语更规范 | `references/writing-language.md` |
-| 标点数字规则 | `references/punctuation-numbers.md` |
-| 常见错误避免 | `references/common-mistakes.md` |
-| 完整质量检查 | `checklists/quality-checklist.md` |
-| 字体安装指南 | `references/font-install.md`（含WPS操作指引）|
-| 规范词汇速查 | `references/political-terms.md` |
-| 格式诊断脚本 | `scripts/analyzer.py` |
+| 提高写作质量 | 本文 §七 公文语言规范 |
+| 用语更规范 | 本文 §七.3 避讳词对照表 |
+| 标点数字规则 | 本文 §八 标点与数字铁律 |
+| 常见错误避免 | 本文 §十 典型错误案例 |
+| 排版参数速查 | 本文 §五 排版规范 |
+| python-docx 代码 | 本文 §六 .docx 生成完整代码 |
+| 格式自检修复 | 本文 §六 `check()` 函数 |
 | 标点修复脚本 | `scripts/punctuation.py` |
 | 文种 Markdown 模板 | `templates/*.md`（15种文种 + 桌签模板）|
 | 格式预设 | `presets/custom.json` |
